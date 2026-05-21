@@ -55,6 +55,8 @@ public class UserEntity {
     @NonNull public String getSalt() {
         return salt;
     }
+
+
     public void setSalt(@NonNull String salt) {
         this.salt = salt;
     }
