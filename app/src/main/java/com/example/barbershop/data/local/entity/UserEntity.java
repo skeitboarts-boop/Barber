@@ -51,6 +51,10 @@ public class UserEntity {
     public void setPasswordHash(@NonNull String passwordHash) {
         this.passwordHash = passwordHash;
     }
+
+
+
+
     @NonNull public String getSalt() {
         return salt;
     }
