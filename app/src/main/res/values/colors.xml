@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_900">#0F172A</color>
+    <color name="primary_700">#1E293B</color>
+    <color name="accent_500">#38BDF8</color>
+    <color name="accent_100">#E0F2FE</color>
+    <color name="page_bg">#F8FAFC</color>
+    <color name="surface_white">#FFFFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="success_bg">#DCFCE7</color>
+    <color name="success_text">#166534</color>
+    <color name="stroke_light">#E2E8F0</color>
+</resources>

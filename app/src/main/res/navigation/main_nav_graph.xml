@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.barbershop.ui.fragments.HomeFragment"
+        android:label="Главная" />
+
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="com.example.barbershop.ui.fragments.BookingFragment"
+        android:label="Запись" />
+
+    <fragment
+        android:id="@+id/appointmentsFragment"
+        android:name="com.example.barbershop.ui.fragments.AppointmentsFragment"
+        android:label="Мои записи" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.barbershop.ui.fragments.ProfileFragment"
+        android:label="Профиль">
+
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+
+        <action
+            android:id="@+id/action_profileFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.barbershop.ui.fragments.EditProfileFragment"
+        android:label="Редактировать профиль" />
+
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.barbershop.ui.fragments.ChangePasswordFragment"
+        android:label="Изменить пароль" />
+</navigation>
