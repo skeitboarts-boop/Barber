@@ -62,6 +62,8 @@ public class UserEntity {
     public void setSalt(@NonNull String salt) {
         this.salt = salt;
     }
+
+
     public long getCityId() {
         return cityId;
     }
