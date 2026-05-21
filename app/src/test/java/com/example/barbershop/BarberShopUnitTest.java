@@ -104,6 +104,9 @@ public class BarberShopUnitTest {
     public void isTimeSlotAvailable_countFive_returnsFalse() {
         assertFalse(AppointmentValidator.isTimeSlotAvailable(5));
     }
+
+
+
     @Test
     public void canCreateAppointment_realData_slotFree_returnsTrue() {
         boolean result = AppointmentValidator.canCreateAppointment(
