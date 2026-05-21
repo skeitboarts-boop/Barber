@@ -66,6 +66,8 @@ public abstract class AppDatabase extends RoomDatabase {
                                     db.execSQL("INSERT INTO cities (name) VALUES ('Екатеринбург')");
                                     db.execSQL("INSERT INTO cities (name) VALUES ('Энгельс')");
 
+
+
                                     db.execSQL("INSERT INTO branches (cityId, title, address) VALUES (1, 'Barber House Центр', 'г. Москва, ул. Тверская, д. 18')");
                                     db.execSQL("INSERT INTO branches (cityId, title, address) VALUES (1, 'Barber House Арбат', 'г. Москва, ул. Арбат, д. 27')");
                                     db.execSQL("INSERT INTO branches (cityId, title, address) VALUES (1, 'Barber House Сити', 'г. Москва, Пресненская наб., д. 8')");
